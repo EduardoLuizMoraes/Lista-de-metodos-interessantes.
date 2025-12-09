@@ -272,3 +272,44 @@ Efeitos (IDs) :
 22 - Absorption
 23 - Saturation
 24 - 
+
+
+[NPC-Tail-DEBUG] Player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[NPC-Tail-DEBUG] Player methods (200/325): getStat, getFormLevel, getAuraColor, setBody,
+setRelease, getGravity, setStat, setForm2, getForm2, getRacialFormMastery, setRacialFormMastery,
+addRacialFormMastery, getOtherFormMastery, setOtherFormMastery, addOtherFormMastery, setPowerPoints,
+getPowerPoints, setAuraColor, setSkills, setJRMCSE, getJRMCSE, getDBCClass, setDBCClass, setPowerType,
+getKillCount, getFusionString, getRace, getPowerType, getSkills, getStamina, getRelease, setGravity,
+setHairCode, setFormLevel, getHairCode, setRace, addBonusAttribute, addBonusAttribute, addToBonusAttribute,
+setBonusAttribute, getBonusAttribute, removeBonusAttribute, clearBonusAttribute, setHP, getHP,
+setStamina, setKi, getKi, setTP, getTP, setExtraCode, getExtraCode, bonusAttribute, bonusAttribute,
+getForm, isBlocking, getItem, getBody, setForm, getInventory, setItem, spawnParticle, checkGUIOpen,
+getMode, typeOf, removeQuest, removeQuest, hasActiveQuest, hasActiveQuest, setPosition, setPosition,
+setPosition, setPosition, setPosition, setPosition, getFactionPoints, hasFinishedQuest, hasFinishedQuest,
+setRotation, setRotation, setPos, setPos, setPos, setPos, setPos, setPos, getHunger, setHunger,
+getSaturation, setSaturation, showDialog, showDialog, hasReadDialog, hasReadDialog, readDialog,
+readDialog, unreadDialog, unreadDialog, startQuest, startQuest, finishQuest, finishQuest, stopQuest,
+stopQuest, getFinishedQuests, addFactionPoints, setFactionPoints, setMode, inventoryItemCount,
+inventoryItemCount, giveItem, giveItem, setSpawnpoint, setSpawnpoint, kick, resetSpawnpoint,
+disableMouseInput, stopUsingItem, clearItemInUse, clearInventory, stopSound, pauseSounds, continueSounds,
+stopSounds, mountEntity, dropOneItem, interactWith, hasAchievement, hasBukkitPermission, getExpLevel,
+setExpLevel, getPixelmonData, getTimers, updatePlayerInventory, getDBCPlayer, getDBCPlayer, isScriptingDev,
+getActiveQuests, getOpenContainer, showCustomGui, getCustomGui, closeGui, showCustomOverlay, closeOverlay,
+getOverlays, getAnimationData, setConqueredEnd, conqueredEnd, getScreenSize, getMagicData, swingHand, removeAllItems,
+removeItem, removeItem, removeItem, getData, getData, getName, getType, getAttributes, getDisplayName,
+blocking, sendMessage, sendMessage, sendMessage, playSound, playSound, playSound, setDimension,
+setDimension, canHarvestBlock, getRotation, addPotionEffect, getPotionEffect, canSeeEntity, setSpeed,
+getSpeed, isAttacking, getMCEntity, getMCEntity, getHeldItem, getArmor, setArmor, setMaxHealth, 
+setHealth, getMinecraftEntity, hurt, hurt, hurt, setMaxHurtTime, getMaxHurtTime, getFollowRange,
+getKnockbackResistance, getMeleeStrength, setFollowRange, setKnockbackResistance, setMeleeStrength,
+setAttackTarget, getAttackTarget, getAttackTargetTime
+[NPC-Tail-DEBUG] NPC methods (200/385): getHealthRegen, setFlySpeed, getFlySpeed, setAnimation, setMovingType, setRotationType, getHome, getHomeX, setHomeX, getHomeY, setHomeY, getHomeZ, setHomeZ, setHome, setHome, setReturnToHome, getReturnToHome, setAttackFactions, getAttackFactions, setDefendFaction, getDefendFaction, getRotationType, getMovingType, shootItem, setProjectilesKeepTerrain, getProjectilesKeepTerrain, getDialogId, setDialog, setDialog, getInteractLines, getWorldLines, getAttackLines, getKilledLines, getKillLines, getRole, getJob, getRightItem, setRightItem, getLefttItem, getLeftItem, setLeftItem, getProjectileItem, setProjectileItem, canAimWhileShooting, aimWhileShooting, setAimType, getAimType, setMinProjectileDelay, getMinProjectileDelay, setMaxProjectileDelay, getMaxProjectileDelay, setRangedRange, getRangedRange, setFireRate, getFireRate, setBurstCount, getBurstCount, setShotCount, getShotCount, setAccuracy, getAccuracy, getFireSound, setFireSound, getLootItem, setLootItem, getLootChance, setLootChance, getLootMode, setLootMode, setMinLootXP, setMaxLootXP, getMinLootXP, getMaxLootXP, getCanDrown, setDrowningType, setTacticalVariant, setTacticalVariant, getTacticalVariant, getTacticalVariantName, getCombatPolicyName, setCombatPolicy, setCombatPolicy, getCombatPolicy, setTacticalRadius, getTacticalRadius, setIgnoreCobweb, getIgnoreCobweb, setOnFoundEnemy, onFoundEnemy, setShelterFrom, getShelterFrom, hasLivingAnimation, setLivingAnimation, setVisibleType, getVisibleType, setVisibleTo, isVisibleTo, setShowName, getShowName, getShowBossBar, setShowBossBar, getMeleeSpeed, setMeleeSpeed, getMeleeRange, setMeleeRange, getSwingWarmup, setSwingWarmup, getKnockback, setKnockback, getAggroRange, setAggroRange, getRangedStrength, setRangedStrength, getRangedSpeed, setRangedSpeed, getRangedBurst, setRangedBurst, getRespawnTime, setRespawnTime, getRespawnCycle, setRespawnCycle, getHideKilledBody, naturallyDespawns, setNaturallyDespawns, spawnedFromSoulStone, getSoulStonePlayerName, isSoulStoneInit, getRefuseSoulStone, setRefuseSoulStone, getMinPointsToSoulStone, setMinPointsToSoulStone, executeCommand, getModelData, setHeadScale, setBodyScale, setArmsScale, setLegsScale, setExplosionResistance, setMeleeResistance, getMeleeResistance, setArrowResistance, getArrowResistance, setRetaliateType, getCombatRegen, setCombatRegen, setHealthRegen, setFly, setFlyGravity, getFlyGravity, setFlyHeightLimit, getFlyHeightLimit, limitFlyHeight, isFlyHeightLimited, setSkinUrl, getSkinUrl, setCloakTexture, getCloakTexture, setOverlayTexture, getOverlayTexture, setCollisionType, getCollisionType, getActionManager, setRangedRage, getRangedRage, setCanDrown, kill, typeOf, updateAI, getDialog, setFaction, getFaction, setSpeed, getSpeed, canFly, say, say, canBreathe, hideKilledBody, getArmor, setArmor, setRole, setJob, getModelType, setModelType, setMaxHealth, updateClient, getSkinType, setTexture, setRotation, setRotation, getTexture, setSkinType, giveItem, getTimers, getOverlays, getAnimationData, getMagicData, getKnockbackResistance, getMeleeStrength, setKnockbackResistance
+[NPC-Tail-DEBUG] DBCAPI methods (46/46): getAura, getOutline, getDBCDisplay, getOutlineHandler,
+getDBCEffectHandler, createForm, createAura, getOrCreateForm, createOutline, forceDodge,
+abstractDBCData, getRaceName, getFormName, getAllFormMasteryData, getAllFormsLength, getAllForms,
+createKiAttack, createKiAttack, fireKiAttack, fireKiAttack, getSkillTPCostSingle, getSkillMindCostSingle,
+getAuraHandler, getFormHandler, getBonusHandler, getSkillMindCostRecursive, getSkillTPCostRecursive,
+getSkillRacialTPCostSingle, getSkillRacialTPMindSingle, getSkillRacialTPCostSingleRecursive, 
+getSkillRacialTPMindSingleRecursive, getUltraInstinctMaxLevel, doDBCDamage, getForm, getDBCData, 
+Instance, IsAvailable, wait, wait, wait, equals, toString, hashCode, getClass, notify, notifyAll
+
