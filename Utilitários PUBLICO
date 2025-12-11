@@ -313,3 +313,6 @@ getSkillRacialTPCostSingle, getSkillRacialTPMindSingle, getSkillRacialTPCostSing
 getSkillRacialTPMindSingleRecursive, getUltraInstinctMaxLevel, doDBCDamage, getForm, getDBCData, 
 Instance, IsAvailable, wait, wait, wait, equals, toString, hashCode, getClass, notify, notifyAll
 
+
+jrmcBdy = Vida atual;
+jrmcBpdy = Vida máxima.
