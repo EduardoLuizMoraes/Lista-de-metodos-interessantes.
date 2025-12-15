@@ -90,6 +90,957 @@ getRaceName;
 isInAura;
 setAura;
 getMaxBody;
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+[WARN] Não encontrei wrapper IPlayer/IDBC direto a partir de event.player. Isso é esperado em algumas versões. Você ainda pode usar AbstractDBCAPI + IAuraHandler para manipular auras globalmente.
+=== DBC/NPCDC AURA DEBUG SCAN END ===
+Mon Dec 15 17:09:38 BRT 2025 tab 1:
+=== DBC/NPCDC AURA DEBUG SCAN => Mon Dec 15 2025 17:09:38 GMT-0300 (BRT) ===
+[OK] AbstractDBCAPI.Instance() => true
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+[WARN] Não encontrei wrapper IPlayer/IDBC direto a partir de event.player. Isso é esperado em algumas versões. Você ainda pode usar AbstractDBCAPI + IAuraHandler para manipular auras globalmente.
+=== DBC/NPCDC AURA DEBUG SCAN END ===
+Mon Dec 15 17:09:37 BRT 2025 tab 1:
+=== DBC/NPCDC AURA DEBUG SCAN => Mon Dec 15 2025 17:09:37 GMT-0300 (BRT) ===
+[OK] AbstractDBCAPI.Instance() => true
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+[WARN] Não encontrei wrapper IPlayer/IDBC direto a partir de event.player. Isso é esperado em algumas versões. Você ainda pode usar AbstractDBCAPI + IAuraHandler para manipular auras globalmente.
+=== DBC/NPCDC AURA DEBUG SCAN END ===
+Mon Dec 15 17:09:37 BRT 2025 tab 1:
+=== DBC/NPCDC AURA DEBUG SCAN => Mon Dec 15 2025 17:09:37 GMT-0300 (BRT) ===
+[OK] AbstractDBCAPI.Instance() => true
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+[WARN] Não encontrei wrapper IPlayer/IDBC direto a partir de event.player. Isso é esperado em algumas versões. Você ainda pode usar AbstractDBCAPI + IAuraHandler para manipular auras globalmente.
+=== DBC/NPCDC AURA DEBUG SCAN END ===
+Mon Dec 15 17:09:37 BRT 2025 tab 1:
+=== DBC/NPCDC AURA DEBUG SCAN => Mon Dec 15 2025 17:09:37 GMT-0300 (BRT) ===
+[OK] AbstractDBCAPI.Instance() => true
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+[WARN] Não encontrei wrapper IPlayer/IDBC direto a partir de event.player. Isso é esperado em algumas versões. Você ainda pode usar AbstractDBCAPI + IAuraHandler para manipular auras globalmente.
+=== DBC/NPCDC AURA DEBUG SCAN END ===
+Mon Dec 15 17:09:37 BRT 2025 tab 1:
+=== DBC/NPCDC AURA DEBUG SCAN => Mon Dec 15 2025 17:09:37 GMT-0300 (BRT) ===
+[OK] AbstractDBCAPI.Instance() => true
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+[WARN] Não encontrei wrapper IPlayer/IDBC direto a partir de event.player. Isso é esperado em algumas versões. Você ainda pode usar AbstractDBCAPI + IAuraHandler para manipular auras globalmente.
+=== DBC/NPCDC AURA DEBUG SCAN END ===
+Mon Dec 15 17:09:37 BRT 2025 tab 1:
+=== DBC/NPCDC AURA DEBUG SCAN => Mon Dec 15 2025 17:09:37 GMT-0300 (BRT) ===
+[OK] AbstractDBCAPI.Instance() => true
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+[WARN] Não encontrei wrapper IPlayer/IDBC direto a partir de event.player. Isso é esperado em algumas versões. Você ainda pode usar AbstractDBCAPI + IAuraHandler para manipular auras globalmente.
+=== DBC/NPCDC AURA DEBUG SCAN END ===
+Mon Dec 15 17:09:37 BRT 2025 tab 1:
+=== DBC/NPCDC AURA DEBUG SCAN => Mon Dec 15 2025 17:09:37 GMT-0300 (BRT) ===
+[OK] AbstractDBCAPI.Instance() => true
+[DBC] methods (count=46):
+  - createAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.createAura(java.lang.String)
+  - getFormName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getFormName(int,int)
+  - getRaceName :: public java.lang.String kamkeel.npcdbc.scripted.DBCAPI.getRaceName(int)
+  - getAuraHandler :: public kamkeel.npcdbc.api.aura.IAuraHandler kamkeel.npcdbc.scripted.DBCAPI.getAuraHandler()
+  - getBonusHandler :: public kamkeel.npcdbc.api.effect.IBonusHandler kamkeel.npcdbc.scripted.DBCAPI.getBonusHandler()
+  - getFormHandler :: public kamkeel.npcdbc.api.form.IFormHandler kamkeel.npcdbc.scripted.DBCAPI.getFormHandler()
+  - getOrCreateForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getOrCreateForm(java.lang.String)
+  - getAllForms :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllForms(int,boolean)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,kamkeel.npcdbc.api.IKiAttack)
+  - fireKiAttack :: public void kamkeel.npcdbc.scripted.DBCAPI.fireKiAttack(noppes.npcs.api.entity.ICustomNpc,byte,byte,int,boolean,byte,byte,boolean,byte)
+  - getSkillRacialTPCostSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingleRecursive(int,int)
+  - getSkillRacialTPMindSingleRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingleRecursive(int,int)
+  - getDBCDisplay :: public kamkeel.npcdbc.api.npc.IDBCDisplay kamkeel.npcdbc.scripted.DBCAPI.getDBCDisplay(noppes.npcs.api.entity.ICustomNpc)
+  - getAura :: public kamkeel.npcdbc.api.aura.IAura kamkeel.npcdbc.scripted.DBCAPI.getAura(java.lang.String)
+  - getOutline :: public kamkeel.npcdbc.api.outline.IOutline kamkeel.npcdbc.scripted.DBCAPI.getOutline(java.lang.String)
+  - getOutlineHandler :: public kamkeel.npcdbc.api.outline.IOutlineHandler kamkeel.npcdbc.scripted.DBCAPI.getOutlineHandler()
+  - getSkillMindCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostSingle(java.lang.String,int)
+  - getSkillMindCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillMindCostRecursive(java.lang.String,int)
+  - getSkillRacialTPMindSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPMindSingle(int,int)
+  - getUltraInstinctMaxLevel :: public int kamkeel.npcdbc.scripted.DBCAPI.getUltraInstinctMaxLevel()
+  - getSkillRacialTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillRacialTPCostSingle(int,int)
+  - getDBCEffectHandler :: public kamkeel.npcdbc.api.effect.IDBCEffectHandler kamkeel.npcdbc.scripted.DBCAPI.getDBCEffectHandler()
+  - getAllFormMasteryData :: public java.lang.String[] kamkeel.npcdbc.scripted.DBCAPI.getAllFormMasteryData(int,int)
+  - getAllFormsLength :: public int kamkeel.npcdbc.scripted.DBCAPI.getAllFormsLength(int,boolean)
+  - getSkillTPCostSingle :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostSingle(java.lang.String,int)
+  - getSkillTPCostRecursive :: public int kamkeel.npcdbc.scripted.DBCAPI.getSkillTPCostRecursive(java.lang.String,int)
+  - getDBCData :: public kamkeel.npcdbc.api.npc.IDBCStats kamkeel.npcdbc.scripted.DBCAPI.getDBCData(noppes.npcs.api.entity.ICustomNpc)
+  - getForm :: public kamkeel.npcdbc.api.form.IForm kamkeel.npcdbc.scripted.DBCAPI.getForm(java.lang.String)
+  - getClass :: public final native java.lang.Class java.lang.Object.getClass()
+[OK] getAuraHandler() => true
+[AuraHandler] getAuras() => 0
+[Player] script player class: noppes.npcs.scripted.entity.ScriptDBCPlayer
+[Player] methods (filtered):
+  - setHairCode
+  - setFormLevel
+  - setRacialFormMastery
+  - getOtherFormMastery
+  - getBonusAttribute
+  - getRacialFormMastery
+  - setBonusAttribute
+  - setOtherFormMastery
+  - setForm
+  - getItem
+  - getGravity
+  - getRace
+  - getPowerType
+  - getSkills
+  - getStamina
+  - setItem
+  - getStat
+  - setRace
+  - getAuraColor
+  - setTP
+  - getPowerPoints
+  - getJRMCSE
+  - setDBCClass
+  - getDBCClass
+  - getTP
+  - setSkills
+  - setForm2
+  - getKillCount
+  - getForm2
+  - setExtraCode
+  - getHP
+  - setHP
+  - getExtraCode
+  - setStamina
+  - getKi
+  - setKi
+  - setPowerPoints
+  - setStat
+  - setJRMCSE
+  - setPowerType
+  - getFusionString
+  - setAuraColor
+  - getBody
+  - getFormLevel
+  - setRelease
+  - getForm
+  - getHairCode
+  - getRelease
+  - setGravity
+  - getInventory
+  - setBody
+  - getName
+  - getType
+  - getAttributes
+  - getDisplayName
+  - getData
+  - getData
+  - getMode
+  - setMode
+  - getFinishedQuests
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - setPos
+  - getRotation
+  - getExpLevel
+  - setSaturation
+  - getHunger
+  - setSpawnpoint
+  - setSpawnpoint
+  - setHunger
+  - getSaturation
+  - setFactionPoints
+  - setConqueredEnd
+  - getAnimationData
+  - getDBCPlayer
+  - getDBCPlayer
+  - getActiveQuests
+
+
+
+
 
 
 NBT's
