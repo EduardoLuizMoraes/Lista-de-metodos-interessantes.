@@ -1272,148 +1272,148 @@ jrmcBody = Vida máxima.
 
 
 
-Para mods : [06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] === START DUMP: ALL NBT KEYS & VALUES ===
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] top-level NBT: total keys=10
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'SkinOverlayData' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'curEn' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jrmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jmcEngy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'PlayerPersisted' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'curEnergy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jrmcE' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jrmcEnrgy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'curEnrgy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PlayerPersisted: total keys=67
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStnd' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcCnsI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcState' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'curEnergy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStamina' -> int:1856
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcUltmtTm' -> int:39
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'auraID' -> int:-1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcRace' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jmcEngy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcInstantTransmissionTimers' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSltY' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSltX' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcLastDamageDealt' -> int:2698
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAlign' -> int:67
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcRelease' -> int:37
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSltZ' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'curEn' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTp' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcUIWasInPainDuration' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCisFlying' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSlts' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcGravForce' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAttackTimer' -> int:1766132950
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcFormMasteryRacial_Human' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcE' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCFlightEnabled' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcLastAttacker' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcCncI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAlCntr' -> int:64
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech4' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcDexI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCDynamicFlightSpeed' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcArcRsrv' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'JRYCAge' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcEnrgy' -> int:15996
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcPwrtyp' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcClass' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcLastDamageReceived' -> int:1139
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAccept' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'addonFormLevel' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTpint' -> int:1620
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'tpgbfokt' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCBaseFlightSpeed' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCFlightSpeedRelease' -> int:100
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'addonFormID' -> int:-1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSettings' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcMajinAbsorptionData' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAuraColor' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcDNS' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcIntI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStatusEff' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStrI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcDNSH' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'curEnrgy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcWilI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'outlineID' -> int:-1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcFuzion' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCIsFnPressed' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCFlightGravity' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCSprintSpeed' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcFormMasteryNonRacial' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech2' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech3' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSsnoc' -> int:12397186
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech1' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jrmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jmcEngy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jrmcE' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jrmcEnrgy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStnd' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcCnsI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcState' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStamina' -> int:1856
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcUltmtTm' -> int:39
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcRace' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jmcEngy' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcInstantTransmissionTimers' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSltY' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSltX' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcLastDamageDealt' -> int:2698
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAlign' -> int:67
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcRelease' -> int:37
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSltZ' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTp' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcUIWasInPainDuration' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCisFlying' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSlts' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcGravForce' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAttackTimer' -> int:1766132950
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcFormMasteryRacial_Human' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcE' -> int:16200
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCFlightEnabled' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcLastAttacker' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcCncI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAlCntr' -> int:64
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech4' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcDexI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCDynamicFlightSpeed' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcArcRsrv' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcEnrgy' -> int:15996
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcPwrtyp' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcClass' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcLastDamageReceived' -> int:1139
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAccept' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTpint' -> int:1620
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCBaseFlightSpeed' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCFlightSpeedRelease' -> int:100
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jmcBdy' -> int:12540
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSettings' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcMajinAbsorptionData' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAuraColor' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcDNS' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcIntI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStatusEff' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStrI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcDNSH' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcWilI' -> int:600
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcFuzion' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCIsFnPressed' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCFlightGravity' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCSprintSpeed' -> int:1
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcFormMasteryNonRacial' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech2' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech3' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSsnoc' -> int:12397186
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech1' -> int:0
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] ExtendedPlayer instance NOT FOUND (tryGetExtendedPlayerInstance returned null).
-[06:00:43] [Client thread/INFO]: [CHAT] [RNEffects:keys] === END DUMP ===
+Para mods : [06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] === START DUMP: ALL NBT KEYS & VALUES ===
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] top-level NBT: total keys=10
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'SkinOverlayData' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'curEn' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jrmcBdy' -> int:12540
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jmcEngy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jmcBdy' -> int:12540
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'PlayerPersisted' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'curEnergy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jrmcE' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'jrmcEnrgy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] TOP KEY -> 'curEnrgy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PlayerPersisted: total keys=67
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStnd' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcCnsI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcState' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'curEnergy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStamina' -> int:2580
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcUltmtTm' -> int:46
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'auraID' -> int:-1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcRace' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jmcEngy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcInstantTransmissionTimers' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSltY' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSltX' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcLastDamageDealt' -> int:2698
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAlign' -> int:67
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcRelease' -> int:37
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSltZ' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'curEn' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTp' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcUIWasInPainDuration' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCisFlying' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSSlts' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcGravForce' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAttackTimer' -> int:1766135254
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcFormMasteryRacial_Human' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcE' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcBdy' -> int:5112
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCFlightEnabled' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcLastAttacker' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcCncI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAlCntr' -> int:71
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech4' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcDexI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCDynamicFlightSpeed' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcArcRsrv' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'JRYCAge' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcEnrgy' -> int:16388
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcPwrtyp' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcClass' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcLastDamageReceived' -> int:3442
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAccept' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'addonFormLevel' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTpint' -> int:1620
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'tpgbfokt' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCBaseFlightSpeed' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCFlightSpeedRelease' -> int:100
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'addonFormID' -> int:-1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jmcBdy' -> int:12540
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSettings' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcMajinAbsorptionData' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcAuraColor' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcDNS' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcIntI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStatusEff' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcStrI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcDNSH' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'curEnrgy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcWilI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'outlineID' -> int:-1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcFuzion' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCIsFnPressed' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCFlightGravity' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'DBCSprintSpeed' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcFormMasteryNonRacial' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech2' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech3' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcSsnoc' -> int:12397186
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] PP KEY -> 'jrmcTech1' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jrmcBdy' -> int:12540
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jmcEngy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jmcBdy' -> int:12540
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jrmcE' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT TOP KEY -> 'jrmcEnrgy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStnd' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcCnsI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcState' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStamina' -> int:2580
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcUltmtTm' -> int:46
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcRace' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jmcEngy' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcInstantTransmissionTimers' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSltY' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSltX' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcLastDamageDealt' -> int:2698
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAlign' -> int:67
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcRelease' -> int:37
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSltZ' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTp' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcUIWasInPainDuration' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCisFlying' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSSlts' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcGravForce' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAttackTimer' -> int:1766135254
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcFormMasteryRacial_Human' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcE' -> int:16200
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcBdy' -> int:5112
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCFlightEnabled' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcLastAttacker' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcCncI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAlCntr' -> int:71
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech4' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcDexI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCDynamicFlightSpeed' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcArcRsrv' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcEnrgy' -> int:16388
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcPwrtyp' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcClass' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcLastDamageReceived' -> int:3442
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAccept' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTpint' -> int:1620
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCBaseFlightSpeed' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCFlightSpeedRelease' -> int:100
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jmcBdy' -> int:12540
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSettings' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcMajinAbsorptionData' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcAuraColor' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcDNS' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcIntI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStatusEff' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcStrI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcDNSH' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcWilI' -> int:600
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcFuzion' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCIsFnPressed' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCFlightGravity' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'DBCSprintSpeed' -> int:1
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcFormMasteryNonRacial' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech2' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech3' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcSsnoc' -> int:12397186
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] JINRYUU-SUSPECT PP KEY -> 'jrmcTech1' -> int:0
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] ExtendedPlayer instance NOT FOUND (tryGetExtendedPlayerInstance returned null).
+[06:07:07] [Client thread/INFO]: [CHAT] [RNEffects:keys] === END DUMP ===
