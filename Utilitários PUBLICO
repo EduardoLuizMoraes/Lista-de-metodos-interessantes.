@@ -1,3 +1,29 @@
+=== ATTACK RECOGNITION DEBUG ===
+Hook: attack(event)
+World ticks: 37601969
+--- Métodos testados para identificar O ATACANTE ---
+e.getSwingingEntity() | available: NO | result: null
+e.player | available: YES | result: duCDG_teste
+Método que reconheceu o atacante: e.player
+Atacante identificado como: duCDG_teste
+--- Métodos testados para identificar O ALVO ---
+e.getTarget() | available: YES | result: NPCdeTESTE
+Método que reconheceu o alvo: e.getTarget()
+Alvo identificado como: NPCdeTESTE
+--- Infos complementares ---
+Effect active? YES
+Roll CHANCE: 0.812 (need < 0.1)
+BaseDamage (extra calc): 0
+=== FIM DEBUG ===
+
+
+
+
+
+
+
+
+
 multiplyAllAttributes;
 getCurrentDBCFormName;
 setKiProtectionOn;
